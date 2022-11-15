@@ -1,1 +1,95 @@
+root {
+    --font-200: komet, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    
+    --font-400: komet, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
+    --font-700: komet, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    --font-900: komet, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-container {
+    background-color: #382cbf;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0;
+  
+  
+   
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-image {
+    max-width: 10rem;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/higgins-background.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40rem;
+    margin-top: 0;
+    max-height: 100%;
+}
+
+.hero-item {
+    display: grid;
+    
+
+}
+
+.higgins-logo {
+    max-width: 20rem;
+    
+    
+   
+}
