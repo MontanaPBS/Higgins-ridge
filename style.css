@@ -34,7 +34,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
 }
 
@@ -52,13 +52,13 @@ a {
 }
 
 p {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
     font-family: ropa-mix-pro,sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
    
-    font-size: 1rem;
+    font-size: .9375rem;
     color: white;
 }
 
@@ -161,10 +161,10 @@ p {
     width: 90%;
     margin: auto auto auto auto;
     text-align: center;
-  
-    
-    
+   
 }
+
+
 
 .about-header {
     
@@ -179,6 +179,52 @@ p {
 }
 
 
+.about-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    padding-top: 1rem;
+    width: 100%;
+    margin: auto auto auto auto;
+    text-align: center;
+   
+}
+
+.image-gridbox-one {
+    display: grid;
+    width: 100%;
+    background-color: rgb(249, 91, 117);
+    background-image: url("images/1961_Kurowski_Langer_Fire_Crew_Suited_Up.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+}
+
+.image-gridbox-two {
+    display: grid;
+    width: 100%;
+    background-color: pink;
+    background-image: url("images/1961_Snider_Rod_Higgins_Ridge_Fire_From_Chopper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    position: relative;
+}
+
+.photo-caption {
+    position: absolute;
+    top: 87%;
+    font-family: ropa-mix-pro,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+   
+    font-size: .9375rem;
+    color: white;
+    padding: 2rem;
+}
 
 @media (min-width: 1200px) {
     
@@ -189,10 +235,67 @@ p {
         justify-content: center;
         align-items: center;
         padding-top: 4rem;
-        width: 1000px;
+        width: 900px;
+        margin: auto auto auto auto;
+        text-align: center;
+        
+    }
+
+    h1 {
+        font-family: ropa-mix-pro,sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 8rem;
+        color: white;
+    }
+
+    p {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        font-family: ropa-mix-pro,sans-serif;
+        font-weight: 200;
+        font-style: normal;
+       
+        font-size: 1.25rem;
+        color: white;
+    }
+
+    .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        padding-top: 1rem;
+        width: 100%;
         margin: auto auto auto auto;
         text-align: center;
     }
 
+    .image-gridbox-one {
+        display: grid;
+        width: 100%;
+        background-color: rgb(249, 91, 117);
+        background-image: url("images/1961_Kurowski_Langer_Fire_Crew_Suited_Up.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50rem;
+        position: relative;
+    }
+    
+    .image-gridbox-two {
+        display: grid;
+        width: 100%;
+        background-color: pink;
+        background-image: url("images/1961_Snider_Rod_Higgins_Ridge_Fire_From_Chopper.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50rem;
+        position: relative;
+    }
+
 
 }
+
+
