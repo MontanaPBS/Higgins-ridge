@@ -63,12 +63,12 @@ p {
 }
 
 .nav-container {
-    background-color: #283dbc;
+    background-color: #000000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
     margin-bottom: 0;
   
   
@@ -168,13 +168,11 @@ p {
 
 
 .about-header {
-    
-    margin: 0;
+     margin: 0;
     padding: 0;
 }
 
 .about-subheader {
-   
     margin: 0;
     padding: 0;
 }
@@ -231,12 +229,51 @@ p {
 
 
 
+.watch-container{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url("images/about-top-small.svg");
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: auto 4rem, auto;*/
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.watch-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    width: 90%;
+    margin: auto auto auto auto;
+    text-align: center;
+
+}
 
 
+.video-container {
+    display: grid;
+    position: relative;
+    width: 100%;
+    margin: 3rem auto 10rem auto;
+    padding-bottom: 56.25%; 
+    height: 0;
 
+  }
 
-
-
+  .video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 
 
@@ -283,11 +320,13 @@ p {
     .about-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
-        padding-top: 1rem;
+        grid-template-rows: 1fr;
+        grid-gap: 0;
+        padding: 0;
         width: 100%;
-        margin: auto auto auto auto;
+        margin: 0;
         text-align: center;
+        background-color: black;
     }
 
     .image-gridbox-one {
@@ -326,6 +365,24 @@ p {
         padding: 2rem;
     }
 
+
+    .video-container {
+        display: grid;
+        position: relative;
+        width: 80%;
+        margin: auto auto 10rem auto;
+        padding-bottom: 56.25%; 
+        height: 0;
+    
+      }
+    
+      .video-container iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
 
 
