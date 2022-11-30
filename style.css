@@ -68,7 +68,7 @@ p {
     padding-top: 1rem;
     padding-bottom: 3rem;
     font-family: ropa-mix-pro,sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
    
     font-size: .9375rem;
@@ -482,9 +482,6 @@ p {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
-        justify-content: center;
-        align-items: center;
-        grid-gap: 1rem;
         margin-top: 0;
         padding-bottom: 5rem;
         margin-bottom: 0;
@@ -494,14 +491,6 @@ p {
         padding-bottom: 10rem;
      
     
-    }
-
-    .footer-grid {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-content: center;
-        
     }
 
     .film-maker-header {
@@ -531,7 +520,13 @@ p {
         margin: auto auto auto auto;
     }
 
-
+    .footer-grid {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        
+    }
 
 }
 
