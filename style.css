@@ -34,7 +34,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: white;
 }
 
@@ -47,9 +47,22 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+h3 {
+    font-family: ropa-mix-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   
+    font-size: .9375rem;
+    color: white;
+   }
+
+
+
 a {
     text-decoration: none;
 }
+
+
 
 p {
     padding-top: 1rem;
@@ -118,16 +131,7 @@ p {
     margin-bottom: 1rem;
    }
 
-.hero-text {
-    color: white;
-    margin: 4rem auto auto auto;
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: komet, sans-serif; 
-    font-weight: 400;
-    font-style: normal;
-    text-shadow: 1px 1px 10px black;;
-}
+
 
 
 .about-container {
@@ -160,12 +164,12 @@ p {
 
 
 
-.about-header {
+.header {
      margin: 0;
     padding: 0;
 }
 
-.about-subheader {
+.subheader {
     margin: 0;
     padding: 0;
 }
@@ -270,6 +274,77 @@ p {
 
 
 
+.film-maker-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/about-top-small.svg");
+    background-position: top;
+    background-repeat: repeat-x;
+    background-size: auto 4rem, auto;
+    margin-top: 0;
+    padding-bottom: 5rem;
+    background-color: #d24209;
+    margin-bottom: 0;
+    width: 100%;
+
+}
+
+.film-maker-header {
+    display: grid;
+    text-align: center;
+    margin-top: 7rem;
+    padding-bottom: 1rem;
+    margin: 7rem auto auto auto;
+    width: 90%;
+}
+
+.film-maker-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0rem;
+    
+    width: 90%;
+    margin: auto auto auto auto;
+    text-align: center;
+
+}
+
+.portrait-image {
+    width: 100%;
+}
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding: 2rem 0 2rem 0;
+  
+}
+
+.footer-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.nav-link {
+    font-family: ropa-mix-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: .9375rem;
+    color: white;
+    padding: .75rem;
+
+}
 
 
 
@@ -288,6 +363,18 @@ p {
         margin: auto auto auto auto;
         text-align: center;
         
+    }
+
+    .film-maker-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5rem;
+        width: 900px;
+        margin: auto auto auto auto;
+        text-align: center;
+    
     }
 
     h1 {
@@ -320,6 +407,7 @@ p {
         margin: 0;
         text-align: center;
         background-color: black;
+        
     }
 
     .image-gridbox-one {
