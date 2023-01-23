@@ -81,7 +81,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 1.2rem;
     margin-bottom: 0;
   
   
@@ -324,6 +324,15 @@ p {
     margin: auto auto auto auto;
     text-align: left;
 
+}
+
+.film-maker-content {
+    text-align: left;
+}
+
+.subheader.film {
+    padding-top: 1rem;
+    text-align: left;
 }
 
 .portrait-image {
