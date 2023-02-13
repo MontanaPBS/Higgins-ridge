@@ -278,6 +278,7 @@ p {
 .film-maker-container {
     display: grid;
     grid-template-columns: 1fr;
+    
     justify-content: center;
     align-items: center;
     background-image: url("images/about-top-small.svg");
@@ -288,7 +289,7 @@ p {
    
     background-color: #d24209;
     margin-bottom: 0;
-    width: 100%;
+   
 
 }
 
@@ -297,11 +298,11 @@ p {
     grid-template-rows: 1fr 1fr;
     justify-content: center;
     align-items: center;
-   
+  
     margin-top: 0;
     padding-bottom: 0rem;
     margin-bottom: 0;
-    width: 100%;
+   
 
 }
 
@@ -311,7 +312,7 @@ p {
     margin-top: 7rem;
     padding-bottom: 0rem;
     margin: 7rem auto auto auto;
-    width: 90%;
+  
 }
 
 .film-maker-item {
@@ -322,7 +323,7 @@ p {
     padding-top: 0rem;
     
     width: 95%;
-    margin: auto auto auto auto;
+    margin: 1rem auto auto auto;
     text-align: left;
 
 }
