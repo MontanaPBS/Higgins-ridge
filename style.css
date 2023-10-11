@@ -29,6 +29,16 @@ body {
     margin: 0;
 }
 
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    
+  }
+
 h1 {
     font-family: ropa-mix-pro,sans-serif;
     font-weight: 700;
@@ -273,7 +283,23 @@ p {
     height: 100%;
   }
 
+  .watch-passport {
+    display: grid;
+    background-color: white;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: 1rem auto 1rem auto;
+    min-width: 18rem;
+    
+  
 
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+   
+    font-size: 1.5rem;
+    color: black;
+
+}
 
 .film-maker-container {
     display: grid;
@@ -476,7 +502,7 @@ p {
         position: relative;
         width: 80%;
         margin: auto auto 10rem auto;
-        padding-bottom: 56.25%; 
+        padding-bottom: 46.25%; 
         height: 0;
     
       }
